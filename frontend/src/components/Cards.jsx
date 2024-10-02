@@ -2,7 +2,7 @@ import React from 'react'
 import defaultImage from '../assets/Banner.png'
 
 const Cards = ({cardData}) => {
-    console.log(cardData)
+  
     if(!cardData.image) {
       return <div>Image not uploaded</div>
     }
